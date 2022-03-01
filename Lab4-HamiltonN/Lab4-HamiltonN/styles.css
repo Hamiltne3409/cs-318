@@ -17,10 +17,12 @@ header{
 main{
     padding: 1rem;
 }
+/*Need a period in front of home-content, because it is a class*/
 home-content div{
     display: inline-block;
 width: 60%;
 }
+/*Need a period in front of home-content, because it is a class*/
 home-content img{
     width: 38%;
     vertical-align: top;
