@@ -20,6 +20,7 @@ header>nav>a{
     color:#275218 ;
     text-decoration: none;
     padding: 1rem;
+    /*Missing display:inline-block; this allows the padding on the nav to work*/
 }
 header>nav{
     padding-bottom: 1rem;
