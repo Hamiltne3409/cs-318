@@ -1,0 +1,14 @@
+
+img{
+    max-width: 25rem;
+}
+header{
+    text-align: center;
+}
+background-image:url(images/image1.png);
+background-repeat: repeat;
+background-position: top;
+background-size:cover;
+header>a:active{
+    color: red;
+}
