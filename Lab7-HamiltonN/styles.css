@@ -34,7 +34,7 @@ nav>a:hover{
 header{
     display:flex;
     flex-wrap:wrap;
-    justify-content:baseline;
+    justify-content:baseline;/*Not a valid value for justify-content, try center*/
 }
 nav{
     flex-basis:100%;
@@ -52,6 +52,7 @@ main>img{
     background-size:cover;
     padding:10rem 0 10rem 4rem;
     text-shadow:2px,2px,2px,0000008f;
+    /*No commas in text shadow, just space in between the four values*/
 }
 .gallery>h2{
     background-color:rgb(245, 245, 245);
@@ -64,8 +65,9 @@ main>img{
     }
     header{
         flex-wrap:nowrap;
-        justify-content:left;
+        justify-content:left;/*Not left, try space-between*/
     }
+    /*Display flex shouldn't be on .about-me>h2, should be on just .about-me*/
     .about-me>h2{
         display:flex;
         flex-basis:40%;
