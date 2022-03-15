@@ -5,6 +5,7 @@ img{
 header{
     text-align: center;
 }
+body{
 background-image:url(images/image1.png);
 background-repeat: repeat;
 background-position: top;
