@@ -11,6 +11,6 @@ background-repeat: repeat;
 background-position: top;
 background-size:cover;
 /*the selector on 14 isn't quite right. you want header>a:active. then just color on line 15.*/
-header>a:{
-activecolor: red;
+header>a:active{
+color: red;
 }
