@@ -1,5 +1,8 @@
 img{
     max-width: 50rem;
+    display: block;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
 .Resturant{
     display: inline-block;
@@ -13,9 +16,26 @@ main{
     align-items: center;
     padding: 1rem;
 }
-.story>h1{
-    align-self: center;
+h1{
+    text-align: center;
 }
-head{
-    align-items: center;
+.beer{
+    display: block;
+    max-width:50rem;
+    margin-left: 35rem;
+}
+.contact{
+    display: block;
+    margin-left:45rem;
+    margin-right:45rem;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+:hover>a{
+    color: red;
 }
