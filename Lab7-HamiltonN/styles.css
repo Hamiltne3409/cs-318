@@ -34,7 +34,7 @@ nav>a:hover{
 header{
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;/*Not a valid value for justify-content, try center*/
+    justify-content:center;
 }
 nav{
     flex-basis:100%;
@@ -51,8 +51,7 @@ main img{
     background-image:url(images/me.jpg);
     background-size:cover;
     padding:10rem 0 10rem 4rem;
-    text-shadow:2px 2px 2px 0000008f;
-    /*No commas in text shadow, just space in between the four values*/
+    text-shadow:2px 2px 2px #0000008f;
 }
 .gallery>h2{
     background-color:rgb(245, 245, 245);
@@ -65,9 +64,9 @@ main img{
     }
     header{
         flex-wrap:nowrap;
-        justify-content:space-between;/*Not left, try space-between*/
+        justify-content:space-between;
     }
-    /*Display flex shouldn't be on .about-me>h2, should be on just .about-me*/
+    /*Really close. So the display flex should be on about-me, but the other two properties should be on ".about-me h2". That is why is doesn't look quite right.*/
     .about-me{
         display:flex;
         flex-basis:40%;
