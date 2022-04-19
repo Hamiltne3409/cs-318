@@ -42,7 +42,7 @@ section{
     padding: 2rem 1rem;
     background-color: #2e0105;
 }
-@media (min-width:1100px;){
+@media(min-width:1100px){
     body{
         display: grid;
         grid-template-columns: 20rem auto;
@@ -55,4 +55,102 @@ section{
         display: block;
         text-align: right;
     }
+    .sidenav>a{
+        margin: 2rem;
+        left: -10rem;
+    }
+    .sidenav>a:hover{
+        left: 0;
+    }
+}
+nav>a{
+    transition-property: opacity;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+.sidenav>a{
+    margin: 1rem 2rem;
+    position: relative;
+}
+.sidenav>a:before, .sidenav>a:after{
+    position: absolute;
+    width: 1.7rem;
+    height: 2.5rem;
+    top: -.6rem;
+}
+.sidenav>a:before{
+    content: url(images/scroll-left.svg);
+    left: -1.6rem;
+}
+.sidenav>a:after{
+    content: url(images/scroll-right.svg);
+}
+.sidenav>a{
+    transition: opacity .2s ease-in-out left .5s ease-in-out;
+}
+section{
+    padding-left: 5rem;
+    position: relative;
+}
+section:before{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    transform: scale(.07);
+    left: 0rem;
+    top: 0;
+}
+#odin:before{
+    content: url(images/odin.svg);
+}
+#thor:before{
+    content: url(images/thor.svg);
+}
+#loki:before{
+    content: url(images/raven.svg);
+}
+#frigg:before{
+    content: url(images/helmet.svg);
+}
+#baldr:before{
+    content: url(images/horn.svg);
+}
+#freyja:before{
+    content: url(images/arrow.svg);
+}
+#freyr:before{
+    content:url(images/mace.svg)
+}
+#heimdallr:before{
+    content:url(images/chest.svg)
+}
+#yggdrasil:before{
+    content: url(images/amulet-1.svg);
+}
+#asgard:before{
+    content: url(images/tower.svg);
+}
+#vanaheimr:before{
+    content: url(images/anchor.svg);
+}
+#alfheim:before{
+    content: url(images/beer-mug.svg);
+}
+#midgard:before{
+    content: url(images/pennant.svg);
+}
+#jotunheimr:before{
+    content: url(images/bonfire.svg);
+}
+#muspelheim:before{
+    content: url(images/catapult.svg);
+}
+#svartalfar:before{
+    content: url(images/cabin.svg);
+}
+#niflheim:before{
+    content: url(images/valknut.svg);
+}
+#nidavellir:before{
+    content: url(images/ship.svg);
 }
