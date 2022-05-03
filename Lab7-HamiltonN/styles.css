@@ -66,9 +66,10 @@ main img{
         flex-wrap:nowrap;
         justify-content:space-between;
     }
-    /*Really close. So the display flex should be on about-me, but the other two properties should be on ".about-me h2". That is why is doesn't look quite right.*/
     .about-me{
         display:flex;
+    }
+    .about-me>h2{
         flex-basis:40%;
         background-position:center;
     }
