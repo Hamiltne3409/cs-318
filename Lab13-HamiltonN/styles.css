@@ -50,6 +50,7 @@ section{
     header{
         display: flex;
         justify-content: space-evenly;
+        /*Missing grid-area property on the header that defines which cells it takes up*/
     }
     .sidenav>a{
         display: block;
@@ -86,7 +87,7 @@ nav>a{
     content: url(images/scroll-right.svg);
 }
 .sidenav>a{
-    transition: opacity .2s ease-in-out left .5s ease-in-out;
+    transition: opacity .2s ease-in-out left .5s ease-in-out;/*Need a comma after the first ease-in-out to separate the two transitions.*/
 }
 section{
     padding-left: 5rem;
