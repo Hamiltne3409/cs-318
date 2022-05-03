@@ -11,7 +11,7 @@ tr:nth-child(even){
     background-color: #ffffe2;
 }
 tr:nth-child(odd){
-    background-color: #ffffe4;/*The 3 should be a e*/
+    background-color: #ffffe4;
 }
 td, th{
     padding: .5rem;
