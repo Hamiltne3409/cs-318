@@ -70,23 +70,17 @@ body{
 .rover{
     animation-name: walk;
     animation-duration: 5s;
-    animation: linear infinite alternate;/*Delete this*/
-    /*Add animation-timing-function:linear;*/
-    /*Add animation-iteration-count:infinite;*/
     animation-fill-mode: both;
 }
-/*In the keyframes below increase the left value. 100px is really small. Then you will want to delete the transform lol*/
 @keyframes walk{
     from{
         left:0px;
-        transform:rotateZ(0deg);
     }
     50%{
-        left:50px;
+        left:500px;
     }
     to{
-        left:100px;
-        transform:rotateZ(90deg);
+        left:1000px;
     }
 }
 .star{
