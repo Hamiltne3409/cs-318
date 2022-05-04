@@ -181,7 +181,7 @@ footer{
         margin-left: -16rem;
     }
     .call-to-action{
-        padding: 20rem calc((100%-900px)/2) 5rem;/*The minus sign needs a space on both sides*/
+        padding: 20rem calc((100% - 900px)/2) 5rem;
     }
     .call-to-action>h2{
         font-size: 5rem;
@@ -228,7 +228,7 @@ footer{
         margin: 1rem auto;
     }
     footer{
-        justify-content: baseline;/*Value should be space-between*/
+        justify-content: space-between;
         padding: .5rem 1rem;
     }
 }
