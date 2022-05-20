@@ -1,0 +1,69 @@
+header{
+    background-color: #e35f21;
+    height: 8rem;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+body{
+    background-color: black;
+    height: 20rem;
+}
+.logo{
+max-width: 100%;
+}
+main>h2{
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+}
+footer{
+    background-color: #e35f21;
+    align-self: baseline;
+}
+.social{
+    max-width: 8rem;
+    max-height:8rem;
+    text-align:center;
+}
+#services>h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
+}
+#services{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+#title{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+main>p{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+#about{
+    text-align:center;
+}
+#merch{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
+.merch{
+    max-width: 100rem;
+    max-height: 50rem;
+}
+#contact{
+color: white;
+text-align: center;
+font-size: 200%;
+background-color: #e35f21;
+margin-left: 10rem;
+margin-right: 10rem;
+}
